@@ -1,0 +1,357 @@
+@media (max-width: 1024px){
+	
+	.tp-leftarrow, .tp-rightarrow {
+		width: 40px !important;
+		height: 40px !important;
+	}
+
+	.tp-leftarrow {
+		left: -15px !important;
+	}
+
+	.tp-rightarrow {
+		left: 101% !important;
+	}
+
+	.tparrows:before {
+		line-height: 25px !important;
+	}
+
+	.image-content-list {
+		li {
+			margin-bottom: 30px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	.latest-news {
+		.news-meta {
+			top: 110px;
+		}
+	}
+
+	.revenue-gallery li {
+		margin-right: 10px;
+	}
+}
+
+
+@media (max-width: 992px){
+	
+	.portfolio-box.col-4 .portfolio-post {
+		width: 50%;
+	}
+
+	.team-member {
+		margin-bottom: 30px;
+	}
+	.pricing-box {
+		margin-bottom: 30px;
+	}
+	.latest-news .news-details a {
+		float: left !important;
+	}
+	.image-content-img {
+		display: none;
+	}
+	.animated-counter,
+	.progress-chart-feature {
+		padding-bottom: 60px;
+	}
+	.animated-counter-2 {
+		margin-bottom: 80px !important;
+	}
+	.feature-5 {
+	    margin-bottom: 30px;
+	}
+	.block-number {
+		margin-bottom: 30px;
+	}
+	.navbar {
+		min-height: 60px;
+	}
+	.navbar-brand>img {
+		width: 140px;
+		height: auto;
+	}
+	.navbar.navbar-default .navbar-nav > li > a {
+		padding: 10px 8px;
+	}
+	.navbar-collapse.collapse {
+		margin-top: 10px;
+	}
+	.copyright-section {
+		.col-md-6 {
+			width: 50% !important;
+			display: inline-block;
+
+			&:last-child {
+				float: right;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px){
+	
+	.pad100 {
+		padding: 50px 0;
+	}
+	.pad80 {
+		padding: 40px 0;
+	}
+	.pad-t100 {
+	    padding-top: 50px;
+	}
+	.pad-b70 {
+	    padding-bottom: 25px;
+	}
+	.navbar-header {
+		text-align: center;
+	}
+	.navbar-brand {
+		float: none;
+		>img {
+			width: 140px;
+			height: auto;
+			display: inline-block;
+		}
+	}
+	.navbar {
+		min-height: 85px;
+	}
+	.navbar-toggle {
+		margin-top: 25px;
+	}
+	.image-content-img {
+		position: inherit !important;
+	    width: 100% !important;
+	    height: 300px !important;
+	}
+	.image-content {
+		margin-top: 40px;
+	}
+	.image-content-list {
+		li {
+			margin-bottom: 30px;
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+	
+	.call-to-action-2 {
+		text-align: center;
+		
+		a {
+			margin-top: 20px;
+		}
+	}
+
+	.team {
+		.tab-content {
+			.team-details {
+				margin-top: 20px;
+			}
+		}
+	}
+
+	ul.logo-group li {
+		width: 33%;
+	}
+	.call-to-action-simple {
+		margin-bottom: 30px;
+	}
+	.call-to-action-btn {
+		float: left !important;
+	}
+	ul.filter {
+		margin-bottom: 30px;
+	}
+	.portfolio-box.col-4 .portfolio-post {
+		width: 50%;
+	}
+	.breadcrumb {
+		float:left;
+	}
+	.copyright,.footer-nav {
+		text-align: center;
+		float: none;
+	}
+	.copyright-section {
+		.col-md-6 {
+			width: 100% !important;
+			display: inline-block;
+		}
+	}
+	.right-half, .left-half {
+		display: none;
+	}
+	.testimonial-carousel-1.owl-theme .owl-controls {
+		//margin-bottom: 30px;
+	}
+	.testimonial-carousel-1 {
+		margin-bottom: 50px;
+	}
+	.top-header {
+
+		.top-social {
+			text-align: center;
+			li {
+				//float: none;
+			}
+		}
+
+		.top-phone,.top-address {
+			display: none;
+		}
+	}
+
+	.breadcrumb {
+		padding-left: 0;
+	}
+
+	.blog-post .post-content .post-footer .read-more {
+		float: none;
+	}
+	.blog-post .post-content .post-footer .post-meta {
+		margin-bottom: 20px;
+	}
+	.left-sidebar {
+		margin-bottom: 30px;
+	}
+	.right-sidebar {
+		margin-top: 30px;
+	}
+
+	.footer-menu {
+		ul {
+			text-align: center;
+		}
+	}
+
+	.switcher-box {
+		display: none;
+	}
+
+	.mbl-margin-bottom {
+		margin-bottom: 30px;
+	}
+
+	.mbl-margin-top {
+		margin-top: 30px;
+	}
+
+	.banner {
+		h1 {
+			font-size: 50px;
+			line-height: 50px;
+		}
+	}
+
+	.navbar-default {
+		#map {
+			margin-bottom: 30px;
+		}
+	}
+
+}
+
+@media (max-width: 480px){
+	
+	.navbar-default .navbar-brand {
+
+		img {
+			width: 170px ;
+			margin-top: 25px;
+		}
+	}
+
+	.parallax-slide-text-2 {
+		h1 {
+			font-size: 32px;
+			line-height: 55px;
+		}
+	}
+
+	ul.filter li {
+		margin-bottom: 30px;
+		a {
+		    padding: 6px 15px;
+		}
+	}
+	.portfolio-box.col-4 .portfolio-post {
+		width: 100%;
+	}
+	.portfolio-post {
+		img {
+			width: 100% !important;
+		}
+	}
+	.latest-news {
+		margin-bottom: 30px;
+	}
+	.latest-news .news-details a {
+		margin-right: 30px;
+	}
+	.latest-news-style-2 .media-left img {
+		//width: 100%;
+	}
+	.right-half, .left-half {
+		display: none;
+	}
+	.call-to-action-btn {
+		float: none !important;
+	}
+
+	.revenue-gallery li {
+		width: 25%;
+		margin-right: 0;
+	}
+	.text-section-left {
+		margin-bottom: 30px;
+	}
+
+	ul.logo-group li {
+		width: 50%;
+	}
+
+	.subscribe-form button, 
+	.subscribe-form button:focus {
+		padding: 0 10px;
+	}
+
+	.top-header {
+
+		.top-phone,.top-address {
+			display: none;
+		}
+	}
+	.footer-social {
+		display: inline-block;
+	}
+
+	.btn-2 {
+		display: none !important;
+	}
+
+	.pagination>li {
+		float: left;
+		padding-bottom: 5px;
+	}
+}
+
+
+@media (max-width: 320px){
+	
+	
+	.banner {
+		h1 {
+			font-size: 35px;
+			line-height: 40px;
+		}
+	}
+
+}
+
